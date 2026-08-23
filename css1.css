@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background: #000000;
+    color: #ffffff;
+    font-family: '__gameFont_4a9947', Arial, sans-serif;
+}
+
+main {
+    background-color: #0d4b9f;
+    background-image: radial-gradient(circle at 50% 30%, #1562c9 0%, #08377a 75%), url('https://link.clashroyale.com/images/game/background.jpg');
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: calc(100vh - 240px);
+}
+
+.reward-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 340px;
+    height: 60px;
+    background: linear-gradient(180deg, #ffcc00 0%, #ffa800 100%);
+    border: 3px solid #141414;
+    border-radius: 14px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 900;
+    box-shadow: 0 5px 0 #141414, inset 0 2px 0 rgba(255, 255, 255, 0.6);
+}
